@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7399fa12a46528843b461f8e8cd81e91, type: 3}
+  m_Name: Draffle
+  m_EditorClassIdentifier: 
+  itemID: 1
+  <IsStackable>k__BackingField: 0
+  <MaxStackSize>k__BackingField: 1
+  <Name>k__BackingField: Draffle
+  <Description>k__BackingField: squirrle shooting thing
+  <ItemImage>k__BackingField: {fileID: 21300000, guid: ae1e430e314367842ae8e0c660e3cf2d, type: 3}
+  <DefaultParametersList>k__BackingField: []
+  itemPrefab: {fileID: 2136545845713793569, guid: 190e39ab18452f74b8e5930f0f102f06, type: 3}
+  <actionSFX>k__BackingField: {fileID: 0}
+  weaponCooldown: 0.5
+  weaponDamage: 2
+  weaponRange: 0

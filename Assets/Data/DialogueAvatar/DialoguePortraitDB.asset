@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443c45b377976854d8b9fa68b01f638a, type: 3}
+  m_Name: DialoguePortraitDB
+  m_EditorClassIdentifier: 
+  portraits:
+  - characterName: Sketon
+    portrait: {fileID: 1765581524, guid: 5df94a9bc40ec5945b14882d06a6a655, type: 3}
+  - characterName: Krixim
+    portrait: {fileID: 1804650400, guid: 5df94a9bc40ec5945b14882d06a6a655, type: 3}
+  - characterName: "Th\u1EA7n R\u1EEBng"
+    portrait: {fileID: 2017990129, guid: dccc2a5bc5bd18b45b476a6e21d0073f, type: 3}
+  - characterName: "Th\u1EA7n Ch\u1EBFt"
+    portrait: {fileID: 1201166855, guid: 5df94a9bc40ec5945b14882d06a6a655, type: 3}
+  - characterName: Ego
+    portrait: {fileID: -839888247, guid: 5df94a9bc40ec5945b14882d06a6a655, type: 3}
+  - characterName: Era
+    portrait: {fileID: 218407452, guid: 5df94a9bc40ec5945b14882d06a6a655, type: 3}

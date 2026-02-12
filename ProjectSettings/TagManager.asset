@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - WeaponCollider
+  - Weapon
+  - Enemy
+  - GM
+  - Barrier
+  - DestructableObject
+  - ElectricSource
+  - BreakableWall
+  - EnemyBoss
+  - Chicken
+  - GlowSword
+  - PuzzleTag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Camera
+  - Water
+  - UI
+  - firefly
+  - foreground
+  - Environment
+  - Background
+  - Ground
+  - Enemy
+  - Player
+  - Obstacle
+  - Velocity
+  - TOP
+  - Barrier
+  - BlockPlayerOnly
+  - breakApartObject
+  - Destructable
+  - BreakableWall
+  - tilemap
+  - star
+  - WeaponCollider
+  - PlayerCollider
+  - Burnable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1843395243
+    locked: 0
+  - name: tilemap
+    uniqueID: 1019546155
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MidGround
+    uniqueID: 1399535697
+    locked: 0
+  - name: firefly
+    uniqueID: 2951319613
+    locked: 0
+  - name: foreground
+    uniqueID: 599086623
+    locked: 0
+  - name: UI
+    uniqueID: 3526071695
+    locked: 0
+  - name: toplayer
+    uniqueID: 3296808429
+    locked: 0

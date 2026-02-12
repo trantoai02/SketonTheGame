@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2777672427288408107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2777672427288408104}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2777672427288408104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777672427288408107}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.92, y: -3.53, z: 0.89058125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2777672428719917122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2777672428719917125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2777672428719917122}
+  - component: {fileID: 2777672428719917123}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2777672428719917122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777672428719917125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2777672427288408104}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2777672428719917123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777672428719917125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d4b248f2a2dc74c826d807a7c62084, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 2777672427288408107}
+  countdown: 3
+  waves:
+  - enemies:
+    - enemyPrefab: {fileID: 3877115307128960701, guid: 224d3956093fc75408f7519ca4b3aa76, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    - enemyPrefab: {fileID: 3877115307128960701, guid: 224d3956093fc75408f7519ca4b3aa76, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 5
+    - enemyPrefab: {fileID: 6420667169163926920, guid: 1741e5a1d01b51f4799fcf8d070aba3d, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 2
+    - enemyPrefab: {fileID: 6420667169163926920, guid: 1741e5a1d01b51f4799fcf8d070aba3d, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 3
+    - enemyPrefab: {fileID: 3877115307128960701, guid: 224d3956093fc75408f7519ca4b3aa76, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    timeToNextWave: 5
+  - enemies:
+    - enemyPrefab: {fileID: 8056983511100176963, guid: 2560e19010131724da0d2e8e58e1ac70, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    - enemyPrefab: {fileID: 503499970374340066, guid: 342928215ef2a3442aed67be562a47a6, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 4
+    - enemyPrefab: {fileID: 6420667169163926920, guid: 1741e5a1d01b51f4799fcf8d070aba3d, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    - enemyPrefab: {fileID: 3877115307128960701, guid: 224d3956093fc75408f7519ca4b3aa76, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 4
+    - enemyPrefab: {fileID: 6420667169163926920, guid: 1741e5a1d01b51f4799fcf8d070aba3d, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    - enemyPrefab: {fileID: 8666753519436339328, guid: 7580d46f804375749b09ff15a25eca3f, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    timeToNextWave: 5
+  - enemies:
+    - enemyPrefab: {fileID: 1030090650468935825, guid: b0271a8f0a8648c44b23af711a518db5, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    - enemyPrefab: {fileID: 1030090650468935825, guid: b0271a8f0a8648c44b23af711a518db5, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 4
+    - enemyPrefab: {fileID: 6695995268711348300, guid: 9db5bd29c0cc2d7438a1e2efb9934706, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    - enemyPrefab: {fileID: 6695995268711348300, guid: 9db5bd29c0cc2d7438a1e2efb9934706, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 4
+    - enemyPrefab: {fileID: 6420667169163926920, guid: 1741e5a1d01b51f4799fcf8d070aba3d, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    - enemyPrefab: {fileID: 3877115307128960701, guid: 224d3956093fc75408f7519ca4b3aa76, type: 3}
+      chaseType: 1
+      timeToNextEnemy: 0
+    timeToNextWave: 3
+  enemyLevel: 5

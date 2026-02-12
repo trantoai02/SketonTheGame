@@ -1,0 +1,59 @@
+﻿
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Inventory.Model
+{
+    [Serializable]
+    public abstract class ItemSO : ScriptableObject
+    {
+        [field: SerializeField]
+        public bool IsStackable { get; set; }
+
+        [field: SerializeField]
+        public int MaxStackSize { get; set; } = 1;
+
+        [field: SerializeField]
+        public string Name { get; set; }
+
+        [field: SerializeField]
+        [field: TextArea]
+        public string Description { get; set; }
+
+        [field: SerializeField]
+        public Sprite ItemImage { get; set; }
+
+        [field: SerializeField]
+        public List<ItemParameter> DefaultParametersList { get; set; }
+
+
+        public GameObject itemPrefab;
+    }
+
+    [Serializable]
+
+    public struct ItemParameter //: IEquatable<ItemParameter>
+    {
+        public int itemStateID;
+        public ItemParameterSO itemParameter;
+        public float value;
+
+        public ItemParameter(int itemStateID, ItemParameterSO parameter, float value)
+        {
+            this.itemStateID = itemStateID;
+            this.itemParameter = parameter;
+            this.value = value;
+        }
+
+
+
+
+        //public bool Equals(ItemParameter other)
+        //{
+        //    return other.itemParameter == itemParameter;
+        //}
+    }
+}
+
+
