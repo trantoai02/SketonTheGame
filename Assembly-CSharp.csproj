@@ -180,6 +180,7 @@
     <Compile Include="Assets\Scripts\SkillSummoner.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Scripts\Effects\parallaxingBackground.cs" />
+    <Compile Include="Assets\DestroyIfNoChildren.cs" />
     <Compile Include="Assets\SlashHole.cs" />
     <Compile Include="Assets\Scripts\PuzzleManager.cs" />
     <Compile Include="Assets\Scripts\TimedObjectInactive.cs" />
