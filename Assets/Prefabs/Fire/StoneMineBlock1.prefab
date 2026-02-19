@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakApartRef: {fileID: 6259947032520220870, guid: 3e10e2da224133f46b5fc90262544868, type: 3}
-  health: 10
+  health: 6
   shakeAmount: 0.1
   spawnPrefabs:
   - {fileID: 4721336626506783844, guid: 0abeff71fe55c134296c1eaa4833a1e3, type: 3}

@@ -7,6 +7,58 @@ EditorUserSettings:
   m_ConfigSettings:
 <<<<<<< Updated upstream
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+      value: 5203050253020808595b5b75402709444e4f1b79297175607f7b4965e3b5323d
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 0052050551005a5f090d5b7613740a44454f4b7e7f707e34752a4d31b5b8606d
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 0108525657505f0a5c0c097a42260c4442154b2e7f707e627c7c4836b4e1313a
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 525352005d545e0e585f0f7312730b4446154b2e2e717563757a4d37b1b86c61
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5a065203010c500d095d5a7a137406444f164e787c2b23682f704a36e4e46168
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 0001040500535d585e085a23417b5e44444e1b2e7978246279284467b7e1646c
+=======
+      value: 5754055f5c0c5f0d5a560f7516705e4443151d7e7e2d77652e7d4d66b0e63769
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 0108525657505f0a5c0c097a42260c4442154b2e7f707e627c7c4836b4e1313a
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5303025455510f0f59080a7140710944154e4a2f78707f63297f1964e3b26769
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5357060057025f035e5e087049265e44434e4e2c7f717e652f2f4865bab1323d
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5b54520457535c0258570f2612260d444f1541722d2a71622c2b4963b5b4373e
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5a01555557040c0a09560f2415705b4410164a2e2d2d2461287c4a31b3b3603d
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 540851025c530a025a5a0f7143725c444e4e1c797c7f22347f704a66e1b3353a
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5203050253020808595b5b75402709444e4f1b79297175607f7b4965e3b5323d
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 07000051010d5e58585d0f2749270d444e4e4e7d297f23332b7d1930b5b9323c
+>>>>>>> Stashed changes
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5b50005155575f5f0f0d5b2012260e44434e4a7e7e2d23617e2d1931e3e63069
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+>>>>>>> main
       value: 56000c51060c510c5b5a092741730d44134e412c2e7823662c2f1b64b7b36260
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -34,7 +86,15 @@ EditorUserSettings:
       value: 0001040500535d585e085a23417b5e44444e1b2e7978246279284467b7e1646c
       flags: 0
     RecentlyUsedSceneGuid-9:
+<<<<<<< HEAD
       value: 0108525657505f0a5c0c097a42260c4442154b2e7f707e627c7c4836b4e1313a
+=======
+<<<<<<< Updated upstream
+      value: 52095252510551085b085c2714765b444f154a7d7b7b7f34787a186ae4b3646c
+=======
+      value: 0103555506015803550f0a2016760f44464e1e7b747c25647d2d4f6ae0b4656e
+>>>>>>> Stashed changes
+>>>>>>> main
       flags: 0
     UnityEditor.ShaderGraph.Blackboard:
       value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd2e2d293c4ead313b08042de6030a0afa240c0d020be94c4baf5e435d8715fa32c70d15d11612dacc11fee5d3c5d1fe9ab1bf968e93e2ffcbc3e7e2f0b3ffe0e8b0be9afbfdaeffff8e85dd8390e3949c8899daa7

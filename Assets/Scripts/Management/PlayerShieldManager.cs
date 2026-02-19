@@ -40,13 +40,19 @@ public class PlayerShieldManager : MonoBehaviour
         }
     }
 
+
+
     public void AddMaxShield(float amount)
     {
         maxShield += amount;
 
-        PlayerPrefs.SetFloat("playerStamina", maxShield);
+
+
+        PlayerPrefs.SetFloat("playerShield", maxShield);
         PlayerPrefs.Save();
     }
+
+
 
     public void UpdateShieldUI()
     {
