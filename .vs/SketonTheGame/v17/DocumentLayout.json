@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\Data\\UnityProjectToai\\SketonTheGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|d:\\data\\unityprojecttoai\\sketonthegame\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\management\\playershieldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\playershieldmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\management\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\management\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|d:\\data\\unityprojecttoai\\sketonthegame\\assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|d:\\data\\unityprojecttoai\\sketonthegame\\assets\\burnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\burnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\burnable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\weapons\\stick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\stick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2035E8E-EBAF-1D19-41D3-04491DDE5AA9}|Assembly-CSharp.csproj|D:\\Data\\UnityProjectToai\\SketonTheGame\\assets\\scripts\\endtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "PlayerShieldManager.cs",
+              "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Management\\PlayerShieldManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\PlayerShieldManager.cs",
+              "ToolTip": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Management\\PlayerShieldManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Management\\PlayerShieldManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAASwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T11:09:20.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EconomyManager.cs",
               "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\EconomyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EconomyManager.cs",
@@ -66,12 +78,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EconomyManager.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAUwFsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T10:37:06.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T10:37:06.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Burnable.cs",
               "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Burnable.cs",
               "RelativeDocumentMoniker": "Assets\\Burnable.cs",
@@ -79,12 +90,11 @@
               "RelativeToolTip": "Assets\\Burnable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T10:21:19.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T10:21:19.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
@@ -96,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T15:08:49.984Z",
               "EditorCaption": ""
@@ -121,32 +131,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Stick.cs",
-              "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Weapons\\Stick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Stick.cs",
-              "ToolTip": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Weapons\\Stick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Weapons\\Stick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T13:05:34.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
               "ToolTip": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAO0AAAAAAAAAAADwv/sAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAA6wH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T13:11:54.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T13:11:54.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "D:\\Data\\UnityProjectToai\\SketonTheGame\\Assets\\Scripts\\Management\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Management\\PlayerStats.cs",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Management\\PlayerStats.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAADwv0sAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T13:06:19.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T13:06:19.547Z"
             },
             {
               "$type": "Document",
