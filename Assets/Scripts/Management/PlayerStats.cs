@@ -187,7 +187,9 @@ public class PlayerStats : MonoBehaviour
                 EconomyManager.instance.SpendMoney(cost);
                 healthLevel++;
                 health += 1; // Increase health by 10 per level
-                PlayerHealth.Instance.maxHealth = health;
+
+                PlayerHealth.Instance.AddMaxHealth(1);
+
                 AudioManager.instance.PlaySFX("healing", transform);
                 PlayerHealth.Instance.currentHealth = health;
                 SavePlayerStatToPlayPref();
@@ -258,6 +260,15 @@ public class PlayerStats : MonoBehaviour
                 EconomyManager.instance.SpendMoney(cost);
                 strengthLevel++;
                 strength += 1;
+
+
+                PlayerPrefs.SetFloat("playerStrength", strength);
+                //PlayerPrefs.Save();
+               
+
+                SavePlayerStatToPlayPref();
+
+
                 UpdateLevelCost();
 
                 CharacterUpdateUI.instance.UpdatePlayerStatsUI();
