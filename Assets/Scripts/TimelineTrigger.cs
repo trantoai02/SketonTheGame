@@ -64,7 +64,8 @@ public class TimelineTrigger : MonoBehaviour
         //// ví dụ: GameManager.Instance.EndLevel();
         //// endTrigger.GoToPlayerPos();
         //gameManager.CompleteLevel();
-
+        pcCanvas.SetActive(true);
+        questUI.SetActive(true);
         eventAfterTimelineEnd?.Invoke();
 
     }

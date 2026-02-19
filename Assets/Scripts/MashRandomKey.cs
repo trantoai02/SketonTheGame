@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class MashRandomKey : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class MashRandomKey : MonoBehaviour
     public float maxProgress = 100f;
     public float progressPerPress = 10f;
     public float decayPerSecond = 20f;
-    public float penaltyWrongKey = 15f;   // ⭐ Trừ khi nhấn sai phím
+    public float penaltyWrongKey = 15f;
 
     [Header("Key Change Settings")]
     public float changeKeyInterval = 3f;
@@ -21,15 +22,40 @@ public class MashRandomKey : MonoBehaviour
     [Header("Events")]
     public UnityEvent onComplete;
 
+    [Header("Lock Settings")]
+    public float lockRadius = 3.5f;
+
     private float currentProgress = 0f;
     private float timer = 0f;
 
-    private KeyCode currentKey;
     private bool isCompleted = false;
+    private bool canRegisterInput = true;
 
-    private KeyCode[] availableKeys = { KeyCode.W, KeyCode.A, KeyCode.S, KeyCode.D };
+    private KeyCode currentKey;
+    private KeyCode[] availableKeys =
+        { KeyCode.W, KeyCode.A, KeyCode.S, KeyCode.D };
 
-    public float lockRadius = 3.5f;
+    private CustomInput input;
+    public float inputThreshold = 0.7f;
+
+    private void Awake()
+    {
+        input = new CustomInput();
+
+        input.Player.Movement.performed += OnMovePerformed;
+        input.Player.Movement.canceled += OnMoveCanceled;
+    }
+
+    private void OnEnable()
+    {
+        input.Enable();
+    }
+
+    private void OnDisable()
+    {
+        input.Disable();
+    }
+
     private void Start()
     {
         ChooseNewKey();
@@ -38,9 +64,13 @@ public class MashRandomKey : MonoBehaviour
 
     private void Update()
     {
-        float dist = Vector2.Distance(Player.instance.transform.position, transform.position);
+        if (Player.instance == null) return;
 
-        // 🔒 Nếu player lại gần minigame → khóa di chuyển
+        float dist = Vector2.Distance(
+            Player.instance.transform.position,
+            transform.position);
+
+        // 🔒 Lock movement when near
         if (dist <= lockRadius)
         {
             Player.instance.isMovementLocked = true;
@@ -54,37 +84,14 @@ public class MashRandomKey : MonoBehaviour
 
         timer += Time.deltaTime;
 
-        // Đổi phím sau mỗi interval
+        // Change key over time
         if (timer >= changeKeyInterval)
         {
             ChooseNewKey();
             timer = 0f;
         }
 
-        // ⭐ Nếu đúng phím
-        if (Input.GetKeyDown(currentKey))
-        {
-            currentProgress += progressPerPress;
-        }
-        else
-        {
-            // ⭐ Nếu người chơi ấn bất kỳ phím nào DÙNG để mash nhưng sai
-            if (Input.anyKeyDown)
-            {
-                if (Input.GetKeyDown(KeyCode.W) ||
-                    Input.GetKeyDown(KeyCode.A) ||
-                    Input.GetKeyDown(KeyCode.S) ||
-                    Input.GetKeyDown(KeyCode.D))
-                {
-                    if (!Input.GetKeyDown(currentKey))
-                    {
-                        currentProgress -= penaltyWrongKey;
-                    }
-                }
-            }
-        }
-
-        // ⭐ Chỉ decay khi CHƯA hoàn thành
+        // Decay progress
         if (currentProgress < maxProgress)
         {
             currentProgress -= decayPerSecond * Time.deltaTime;
@@ -92,16 +99,55 @@ public class MashRandomKey : MonoBehaviour
 
         currentProgress = Mathf.Clamp(currentProgress, 0f, maxProgress);
 
-        // Update UI
-        progressFill.fillAmount = currentProgress / maxProgress;
+        if (progressFill != null)
+            progressFill.fillAmount = currentProgress / maxProgress;
 
         // Completed
         if (currentProgress >= maxProgress)
         {
             isCompleted = true;
             Player.instance.isMovementLocked = false;
-
             onComplete?.Invoke();
+        }
+    }
+
+    private void OnMovePerformed(InputAction.CallbackContext ctx)
+    {
+        if (isCompleted) return;
+
+        Vector2 dir = ctx.ReadValue<Vector2>();
+
+        if (dir.magnitude < inputThreshold) return;
+        if (!canRegisterInput) return;
+
+        KeyCode detectedDirection = GetDirectionFromVector(dir);
+
+        if (detectedDirection == currentKey)
+        {
+            currentProgress += progressPerPress;
+        }
+        else
+        {
+            currentProgress -= penaltyWrongKey;
+        }
+
+        canRegisterInput = false;
+    }
+
+    private void OnMoveCanceled(InputAction.CallbackContext ctx)
+    {
+        canRegisterInput = true;
+    }
+
+    KeyCode GetDirectionFromVector(Vector2 dir)
+    {
+        if (Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+        {
+            return dir.x > 0 ? KeyCode.D : KeyCode.A;
+        }
+        else
+        {
+            return dir.y > 0 ? KeyCode.W : KeyCode.S;
         }
     }
 
@@ -109,7 +155,10 @@ public class MashRandomKey : MonoBehaviour
     {
         KeyCode newKey;
 
-        do newKey = availableKeys[Random.Range(0, availableKeys.Length)];
+        do
+        {
+            newKey = availableKeys[Random.Range(0, availableKeys.Length)];
+        }
         while (newKey == currentKey);
 
         currentKey = newKey;

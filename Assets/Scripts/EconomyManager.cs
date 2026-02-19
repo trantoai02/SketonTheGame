@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using TMPro;
 using UnityEngine;
 
@@ -90,7 +89,7 @@ public class EconomyManager : MonoBehaviour
 
     public void LoadCoins()
     {
-        currentCoin = PlayerPrefs.GetInt("playerCoin", 9999);
+        currentCoin = PlayerPrefs.GetInt("playerCoin", 0);
 
         if (currentCoin < 0) currentCoin = 0;
         if (currentCoin > 99999) currentCoin = 99999;

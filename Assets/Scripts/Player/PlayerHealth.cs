@@ -118,6 +118,14 @@ public class PlayerHealth : MonoBehaviour
         UpdatePlayerHealthUI();
     }
 
+    public void AddMaxHealth(int amount)
+    {
+        maxHealth += amount;
+
+        PlayerPrefs.SetFloat("playerStamina", maxHealth);
+        PlayerPrefs.Save();
+    }
+
     public void UpdatePlayerHealthUI()
     {
         if (currentHealth >= maxHealth)

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -37,6 +37,16 @@ public class PlayerStaminaManager : MonoBehaviour
             RegenerateStamina();
         }
     }
+
+    public void AddMaxStamina(float amount)
+    {
+        maxStamina += amount;
+
+        PlayerPrefs.SetFloat("playerStamina", maxStamina);
+        PlayerPrefs.Save();
+    }
+
+
 
     public void UpdateStaminaUI()
     {

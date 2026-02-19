@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System;
+
 
 public class ResultPopup : MonoBehaviour
 {
@@ -23,14 +23,16 @@ public class ResultPopup : MonoBehaviour
     {
         if (instance == null)
             instance = this;
-        else
-            Destroy(gameObject);
+        //else
+        //    Destroy(gameObject);
 
         gameObject.SetActive(false);
     }
 
     public void Show()
     {
+        Debug.Log("Show Result Popup");
+
         titleText.text = "Hoàn thành!";
 
         // int levelIndex = LevelSelection.currentLevel;

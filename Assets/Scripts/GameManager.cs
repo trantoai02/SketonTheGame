@@ -98,12 +98,19 @@ public class GameManager : MonoBehaviour
         input.Disable();
 
     }
-
+    public ResultPopup resultPopup;
     public void CompleteLevel()
     {
         //Lưu EXP của Player khi hoàn thành Level
         PlayerXPLevelUpManager.instance.SaveXP();
-        ResultPopup.instance.Show();
+        int rewardCoin = LevelSelection.instance.coinReward; // gợi ý
+      
+
+        EconomyManager.instance.AddCoins(rewardCoin);
+
+        LevelComplete.instance.OnLevelComplete();
+
+        //resultPopup.Show();
     }
 
     public void QuitGame()

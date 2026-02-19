@@ -40,6 +40,14 @@ public class PlayerShieldManager : MonoBehaviour
         }
     }
 
+    public void AddMaxShield(float amount)
+    {
+        maxShield += amount;
+
+        PlayerPrefs.SetFloat("playerStamina", maxShield);
+        PlayerPrefs.Save();
+    }
+
     public void UpdateShieldUI()
     {
         frontShield.fillAmount = currentShield / maxShield;

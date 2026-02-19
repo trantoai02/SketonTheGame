@@ -24728,7 +24728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6488937527339888589, guid: c28d684395293494e83d94ad8e430b2a, type: 3}
       propertyPath: level
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6541535258271783538, guid: c28d684395293494e83d94ad8e430b2a, type: 3}
       propertyPath: m_ConnectedRigidBody
@@ -27442,6 +27442,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 780917850039614804, guid: 81f904d145779b44a8d56f021686e144, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 5582501528224268223, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -28036,7 +28040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5582501530282104818, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6320013685621312472, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchorMax.y
@@ -28064,51 +28068,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6422769502280560885, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6422769502280560885, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6422769502280560885, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6422769502280560885, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6422769502280560885, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6422769502280560885, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6544022574317349847, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6544022574317349847, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6544022574317349847, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6544022574317349847, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6544022574317349847, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6544022574317349847, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8344367803337200709, guid: 81f904d145779b44a8d56f021686e144, type: 3}
       propertyPath: fireRate
@@ -35821,6 +35825,8 @@ MonoBehaviour:
   heartPrefab: {fileID: 6536414846369224960, guid: 52b296bf54391784c96caa721de9b6c6, type: 3}
   xpPrefab: {fileID: 1377406444122014381, guid: 497beb1a2174ff143b4e29169292df25, type: 3}
   spawnPos: {fileID: 0}
+  customPrefab: {fileID: 0}
+  slimeFlameAmount: 4
 --- !u!114 &9012795399049163451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35842,6 +35848,8 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   oldHealth: 0
   controlledByBoss: 0
+  hitEffectPrefab: {fileID: 0}
+  hitEffectOffset: 0.1
 --- !u!1 &9012795399049163452
 GameObject:
   m_ObjectHideFlags: 0

@@ -49,7 +49,7 @@ public class StarObject : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Player>())
+        if (collision.gameObject.tag=="Player")
         {
             LevelComplete.instance.starsTracking[starID] = 1;
             LevelStarManager.instance.starIndexList[starID] = 1;
